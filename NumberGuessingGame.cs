@@ -41,7 +41,7 @@ string input;
     }else if (input == "no") {
         max = number;
     }else if (input == "equal" || input == "done") {
-        Console.WriteLine("I did it! 🎉 Your nummber: " + number);
+        Console.WriteLine("I did it! Your nummber: " + number);
         break;
     }else{
         Console.WriteLine("Please just 'yes', 'no' or 'equal'");
